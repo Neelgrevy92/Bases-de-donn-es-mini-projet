@@ -78,11 +78,11 @@ Le tableau suivant recense les 30 données identifiées lors de l'analyse :
 
 ## Étape 2 : Modèle Conceptuel de Données (MCD)
 
-*(Note pour le rendu : L'image du MCD générée avec votre outil de modélisation doit être insérée ici)*
-
+https://github.com/Neelgrevy92/Bases-de-donn-es-mini-projet/looping.png
 [Image de l'arborescence du projet avec le fichier source du MCD]
 
 ### Justification de la modélisation
 * [cite_start]**Normalisation :** Le dictionnaire évite les redondances pour respecter la 3FN[cite: 82].
 * [cite_start]**Relation Récursive :** Mise en place via le lien entre une station et sa "station suivante" pour modéliser le parcours d'une ligne[cite: 85].
+
 * [cite_start]**Entité Faible :** Le Quai est modélisé comme une entité faible dépendant de la Station[cite: 87].
