@@ -168,5 +168,5 @@ Ce projet utilise SQL pour simuler le back-end d'une application de transport. L
 
 
 
-* [cite_start]**Entité Faible :** Le Quai est modélisé comme une entité faible dépendant de la Station[cite: 87].
+[cite_start]**Entité Faible :** Le Quai est modélisé comme une entité faible dépendant de la Station[cite: 87].
 
