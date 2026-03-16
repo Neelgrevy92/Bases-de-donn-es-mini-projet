@@ -81,10 +81,10 @@ Le tableau suivant recense les 30 données identifiées lors de l'analyse :
 ![MCD](https://raw.githubusercontent.com/Neelgrevy92/Bases-de-donn-es-mini-projet/main/looping.png)
 
 ### Justification de la modélisation
-* [cite_start]**Normalisation :** Le dictionnaire évite les redondances pour respecter la 3FN[cite: 82].
-* [cite_start]**Relation Récursive :** Mise en place via le lien entre une station et sa "station suivante" pour modéliser le parcours d'une ligne[cite: 85].
+* **Normalisation :** Le dictionnaire évite les redondances pour respecter la 3FN.
+* **Relation Récursive :** Mise en place via le lien entre une station et sa "station suivante" pour modéliser le parcours d'une ligne.
 
-* ## Étape 3 : Modèle Logique de Données (MLD)
+## Étape 3 : Modèle Logique de Données (MLD)
 
 Voici la traduction de notre Modèle Conceptuel en Modèle Logique de Données relationnel :
 
@@ -168,5 +168,5 @@ Ce projet utilise SQL pour simuler le back-end d'une application de transport. L
 
 
 
-[cite_start]**Entité Faible :** Le Quai est modélisé comme une entité faible dépendant de la Station[cite: 87].
+**Entité Faible :** Le Quai est modélisé comme une entité faible dépendant de la Station
 
